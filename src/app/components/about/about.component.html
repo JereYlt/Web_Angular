@@ -1,0 +1,188 @@
+<head>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-4977928955885807",
+          enable_page_level_ads: true
+     });
+</script>
+</head>
+
+
+
+<div class="container">
+
+ <br>
+<h1 class="animated fadeIn fast"></h1>
+
+<div class="container">
+
+        <div class="row">
+
+                <div>
+
+                 <h5 class="titulo" aling="center" >PleyadesM.com 
+                 <a  href="https://www.facebook.com/PleyadesM-1221930884565015" target="_blank" >
+                 <img class="facebook" border='0' height='45' src="https://image.ibb.co/dToSGe/facebook.png" width='45'/>
+                 </a>
+
+                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XK3ZBRJNQ7K3N" target="_blank">
+        			<input type="hidden" name="cmd" value="_s-xclick">
+       				 <input type="hidden" name="hosted_button_id" value="6254R2PMPXVSQ">
+      				  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        			<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+       				</a>
+				 </h5>
+
+
+                    <p class="lead">Puede ponerse en contacto llenando el formulario</p>
+                
+                    <form id= "contactForm" (ngSubmit)="Enviar()"  #forma="ngForm">
+
+	                        <div class="controls">
+
+	                            <div class="row">
+
+	                                <div class="col-md-6">
+	                                    <div class="form-group" [ngClass]= "{ 'has-danger': (nombre.errors?.required || nombre.errors?.minlength) && nombre.touched }">
+	                                        <label for="form_name">Nombre</label>
+
+	                                        <input class="form-control"
+	                                         type="text" 
+	                                         name="nombre" 
+	                                         id="nombre"
+	                                         class="form-control" 
+	                                         placeholder="Nombre *" 
+	                                        #nombre="ngModel"
+	                                         minlength="2" 
+	                                      	pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ].*" 
+	                                         required [(ngModel)]="usuario.nombre">
+
+		                                   	  <div *ngIf="nombre.errors?.required">
+		                                       	<i>El nombre es requerido.</i>
+		                                       </div>
+											  <div *ngIf="nombre.errors?.minlength"
+											  	class="form-control-feedback">
+		                                       	<i>Por lo menos  {{nombre.errors.minlength.requiredLength}} caracteres.</i>
+		                                       </div>
+		                                        <div *ngIf="nombre.errors?.pattern" 
+		                                        class="form-control-feedback">
+		                                       	<i>Agregue un nombre válido </i>
+		                                       </div>
+		                                      
+					                                
+				                                     
+	                                      
+	                                    </div>
+	                                </div>
+								
+								<div class="col-md-6">
+	                                    <div class="form-group">
+	                                        <label for="form_email">Correo </label>
+
+	                                        <input class="form-control"
+	                                        id="form_email" 
+	                                        type="email" 
+	                                        id="correo"
+	                                        name="correo" 
+	                                        placeholder="Correo electronico *" 
+	                                        data-error="correo es requerido."
+	                                        required
+	                                        #correo="ngModel"
+	                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+	                                         [(ngModel)]="usuario.correo">
+											 
+											 
+	                                        <div *ngIf="correo.errors?.required">
+		                                       	<i>Este campo es requerido.</i>
+		                                    </div>
+
+		                                     <div *ngIf="correo.errors?.pattern">
+		                                       	<i>El campo no tiene formato de correo electrónico  </i>
+		                                      </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                            <div class="row">
+	                                
+	                                <div class="col-md-8">
+	                                    <div class="form-group">
+	                                        <label for="form_asunto">Asunto </label>
+
+	                                        <input class="form-control"
+	                                        id="form_asunto" 
+	                                        type="text"
+	                                        id="asunto" 
+	                                        name="asunto" 
+	                                        placeholder="Asunto *" 
+	                                        minlength="2"
+	                                      
+	                                        #asunto="ngModel"
+	                                        data-error="Asunto es requerido."
+	                                        required [(ngModel)]="usuario.asunto">
+											<div *ngIf="asunto.errors?.required">
+		                                       	<i>Este campo es requerido.</i>
+		                                       </div>
+											  <div *ngIf="asunto.errors?.minlength">
+		                                       	<i>Por lo menos {{asunto.errors.minlength.requiredLength}} caracteres.</i>
+		                                       </div>
+		                                      
+	                                        
+	                                    </div>
+	                                </div>
+	                            </div>
+
+	                            <div class="row">
+	                                <div class="col-md-12">
+	                                    <div class="form-group">
+	                                        <label for="form_message">Mensaje </label>
+
+	                                        <textarea 
+	                                        id="form_message" 
+	                                        name="mensaje" 
+	                                        id="mensaje"
+	                                        class="form-control" 
+	                                        placeholder="Escribir el mensaje *" 
+	                                        rows="4" 
+	                                      
+	                                        #mensaje="ngModel"
+	                                        data-error="Mensaje es requerido"
+	                                        required [(ngModel)]="usuario.mensaje">
+	                                          <div *ngIf="mensaje.errors?.required">
+	                                        	<i>Este campo es requerido. </i>
+		                                       </div>
+											
+		                                       
+	                                        </textarea>
+	                                        
+	                                    </div>
+	                                </div>
+	                                <div class="col-md-12">
+	                                    <input 
+	                                     [disabled]="!forma.valid"
+	                                     (click)="mostrarAlert()"
+	                                    type="submit" 
+	                                    class="btn btn-success btn-send " 
+	                                    value="Enviar mensaje">
+	                                </div>
+	                                <div><p>(*)campos obligatorios </p></div>
+	                            </div>	 
+
+	                        </div>
+
+                    </form>
+
+                </div>
+
+        </div> 
+
+</div> 
+
+
+  
+ </div>
+
+
+
+

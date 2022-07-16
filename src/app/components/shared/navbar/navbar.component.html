@@ -1,0 +1,55 @@
+
+
+<nav class=" navbar-expand-lg navbar-light "   style="background-color: #c4dff6;" role="navigation"> 
+
+  <button class="navbar-toggler"   type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <a class="navbar-brand nav-link " [routerLink] = "['/categorias']" href="#">
+    <img src="https://image.ibb.co/h6iSGe/pleyadesm.png" width="60" height="50" alt="">
+  </a>
+
+
+
+<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+
+         <li class="nav-item pleyadesm " routerLinkActive="active">
+            <a class="nav-link " [routerLink] = "['/categorias']" >
+              <img class="home"  height="70" width="70"  src="https://image.ibb.co/hWw1Uz/pleyadesm.png">
+
+
+            </a>
+          </li>
+   
+          <li class="nav-item " routerLinkActive="active">
+            <a class="nav-link menu" [routerLink] = "['/subliminal']"><b> MENSAJES SUBLIMINALES</b></a>
+          </li>
+
+          <li class="nav-item "  routerLinkActive="active">
+            <a class="nav-link menu" [routerLink] = "['/preguntas']"><b>PREGUNTAS FRECUENTES</b></a>
+          </li>
+
+            <li class="nav-item " routerLinkActive="active">
+            <a class="nav-link menu" [routerLink] = "['/about']"><b>CONTACTO</b></a>
+          </li>
+     
+   </ul>
+
+ 
+  
+
+  </div>
+
+
+
+ 
+
+</nav>
+
+
+<main class="container">
+
+  <router-outlet></router-outlet>
+</main>

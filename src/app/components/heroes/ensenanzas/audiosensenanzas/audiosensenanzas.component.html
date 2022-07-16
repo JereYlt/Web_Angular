@@ -1,0 +1,94 @@
+<div class="container">
+<hr style="background-color:#f3f4f7" />
+<div class="row audios">
+<span class="audiossubliminales"><b> Lecciones en videos </b></span>
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XK3ZBRJNQ7K3N" target="_blank">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="6254R2PMPXVSQ">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1">
+</a>
+</div>
+<div class="compartir col-xs-12"><b>Compartir:</b>
+<a class=redessociales href="https://www.facebook.com/sharer/sharer.php?u=pleyadesm.com/%23/audiosensenanzas" target="_blank">
+<img border='0' height='35' src="https://image.ibb.co/n8mm9z/facebook.png" width='35'/></a>
+<a class=redessociales href="https://twitter.com/home?status=pleyadesm.com/%23/audiosensenanzas " target="_blank">
+<img border='0' height='35' src="https://image.ibb.co/iuuHGe/twitter.png" width='35'/></a>
+<a class=redessociales href="https://plus.google.com/share?url=www.pleyadesm.com/%23/audiosensenanzas" target="_blank">
+<img border='0' height='35' src="https://image.ibb.co/hyMxGe/google.png" width='35'/></a>
+<a class=redessociales href="http://www.linkedin.com/shareArticle?mini=true&url=https://www.pleyadesm.com/%23/audiosensenanzas" target="_blank">
+<img border='0' height='35' src="https://image.ibb.co/eZ3Ypz/linkedin.png" width='35'/></a>
+<a class="redessociales whatweb" href="https://api.whatsapp.com/send?text=www.pleyadesm.com/%23/audiosensenanzas" data-action="share/whatsapp/share" target="_blank">
+<img border='0' height='35' src="https://image.ibb.co/bzntpz/whatsap.png" width='35'/></a>
+<a class="redessociales whatcel" href="whatsapp://send?text=www.pleyadesm.com/%23/audiosensenanzas" data-action="share/whatsapp/share" target="_blank">
+<img border='0' height='35' src="https://image.ibb.co/bzntpz/whatsap.png" width='35'/></a>
+</div>
+<br>
+<div class="row">
+<div class="articulos1 col-lg-6 col-md-6">
+<div style="cursor:pointer" class="articulos1">
+<a href="http://4e4abqi-3ohjur8nc9qmvlil1u.hop.clickbank.net/?tid=15MINUTOS" target="_blank"><img style="width:100%;height:80px" src="https://image.ibb.co/eFGSNU/15manifestacion.jpg" alt="15manifestacion" border="0" target="blank"/></a>
+</div>
+</div>
+<div class="articulos1 col-lg-6 col-md-6">
+<div style="cursor:pointer" class="articulos1">
+<a href="http://4e4abqi-3ohjur8nc9qmvlil1u.hop.clickbank.net/?tid=15MINUTOS" target="_blank"><img style="width:100%;height:80px" src="https://image.ibb.co/cxtiWp/b15manifestacion.jpg" alt="b15manifestacion" border="0" target="blank"/></a>
+</div>
+</div>
+</div>
+<hr style="background-color:#f3f4f7" />
+<br>
+<div class="container">
+<div class="card-columns">
+<div class="card animated fadeIn fast" (click)="verVideo(video)" *ngFor="let video of videos">
+<img class="card-img-top" [src]="video.thumbnails.medium.url" [alt]="video.title">
+<div class="card-body">
+<h5 class="card-title"><b>{{ video.title }}</b></h5>
+</div>
+</div>
+</div>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+<div class="modal-dialog" role="document">
+<div class="modal-content" *ngIf="videoSel">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLabel">{{ videoSel?.title }}</h5>
+</div>
+<div class="articulos1">
+<div style="cursor:pointer" class="articulos1">
+<a href="http://4e4abqi-3ohjur8nc9qmvlil1u.hop.clickbank.net/?tid=15MINUTOS" target="_blank"><img style="width:100%;height:80px" src="https://image.ibb.co/eFGSNU/15manifestacion.jpg" alt="15manifestacion" border="0" target="blank"/></a>
+</div>
+</div>
+<div class="modal-body precarga">
+<iframe width="100%" height="250" [src]=" videoSel.resourceId.videoId | domseguro " frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<div class="container">
+<div class="compartir"><b>Compartir:</b>
+<a class=redessociales href="https://www.facebook.com/sharer/sharer.php?u=pleyadesm.com/%23/audiosensenanzas" target="_blank">
+<img border='0' height='35' src="https://image.ibb.co/n8mm9z/facebook.png" width='35'/></a>
+<a class=redessociales href="https://twitter.com/home?status=pleyadesm.com/%23/audiosensenanzas " target="_blank">
+<img border='0' height='35' src="https://image.ibb.co/iuuHGe/twitter.png" width='35'/></a>
+<a class=redessociales href="https://plus.google.com/share?url=www.pleyadesm.com/%23/audiosensenanzas" target="_blank">
+<img border='0' height='35' src="https://image.ibb.co/hyMxGe/google.png" width='35'/></a>
+<a class=redessociales href="http://www.linkedin.com/shareArticle?mini=true&url=https://www.pleyadesm.com/%23/audiosensenanzas" target="_blank">
+<img border='0' height='35' src="https://image.ibb.co/eZ3Ypz/linkedin.png" width='35'/></a>
+<a class="redessociales whatweb" href="https://api.whatsapp.com/send?text=www.pleyadesm.com/%23/audiosensenanzas" data-action="share/whatsapp/share" target="_blank">
+<img border='0' height='35' src="https://image.ibb.co/bzntpz/whatsap.png" width='35'/></a>
+<a class="redessociales whatcel" href="whatsapp://send?text=www.pleyadesm.com/%23/audiosensenanzas" data-action="share/whatsapp/share" target="_blank">
+<img border='0' height='35' src="https://image.ibb.co/bzntpz/whatsap.png" width='35'/></a>
+</div>
+</div>
+<br>
+<div class="modal-footer">
+<button (click)="cerraModal()" type="button" class="btn btn-danger">
+<b>Cerrar</b>
+</button>
+</div>
+</div>
+</div>
+</div>
+<ul class="nav-item" routerLinkActive="active">
+<h6>Temas que le pueden interesar:</h6>
+<li> <a class="nav-link" (click)="(verSubliminales())" [routerLink]="['/subliminal']"><h5>Los mensajes subliminales</h5></a></li>
+<li> <a class="nav-link" (click)="(verPreguntas())" [routerLink]="['/preguntas']"><h5>Preguntas y respuestas frecuentes</h5></a></li>
+<li> <a class="nav-link" (click)="(verHeroes())" [routerLink]="['/categorias']"><h5>Categorias de audios subliminales</h5></a></li>
+</ul>

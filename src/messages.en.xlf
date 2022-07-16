@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="307bc7ee9db0a043386be9d8200cca7b6c408941" datatype="html">
+        <source> Salud Perfecta</source>
+        <target> Perfect Health</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1958da2fe3a8c0ceab05f649bfcdc011924266ba" datatype="html">
+        <source>Compartir en:</source>
+        <target> Share in:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3d9e8a126bef30d1fc56d4d832e74c9d34e7a36e" datatype="html">
+        <source>Audios subliminales</source>
+        <target>Subliminal audios </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8d5114b9a30dbc4c85c74b651eb2eec5348042dc" datatype="html">
+        <source>La salud que tienes, es la consecuencia de tus pensamientos, tus emociones y las creencias que están impresa en tus células. El cuerpo se renueva constantemente de acuerdo con el modelo de creencias que usted tiene en su subconsciente. 
+Según los antiguos maestros espirituales y los actuales científicos dicen que los pensamientos controlan nuestra biología: &quot;Un pensamiento negativo puede traer enfermedades como un pensamiento positivo puede traer salud, la salud solo o menos del 1% tiene que ver con la genética, el resto es con nuestro estilo de vida y nuestro entorno&quot;. Dr. Lipton</source>
+<target>The health you have is the consequence of your thoughts, your emotions and the beliefs that are imprinted in your cells. The body is constantly renewed according to the belief model that you have in your subconscious.
+According to ancient spiritual teachers and current scientists say that thoughts control our biology: "A negative thought can bring diseases such as positive thinking can bring health, health alone or less than 1% has to do with genetics, the rest It is with our lifestyle and our environment." Dr. Lipton </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4c3df8362a2fb868a72a1ff9233c75ac3ba28539" datatype="html">
+        <source>Temas que le pueden interesar:</source>
+        <target> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="167f76b21bd944f6f5037561a75bb867f3971d6f" datatype="html">
+        <source>Los mensajes subliminales</source>
+        <target> Topics that may interest you:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c17447a2426608b648f2ca090b686ede17a71398" datatype="html">
+        <source>Preguntas y respuestas frecuentes</source>
+        <target> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5318afc9a69e0828980e71db3657a09296339d8c" datatype="html">
+        <source>Categorias de audios subliminales</source>
+        <target>Frequently asked questions and answers </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="219b1a4ae167e8e7d3cd9cec9142fcf3d39665de" datatype="html">
+        <source>El Dr. En biología Bruce Lipton dice “que el poder de las palabras es influenciada en nuestra mente, cambia nuestro sistemas biológico y nuestro entorno”. </source>
+        <target>Dr. In biology Bruce Lipton says "that the power of words is influenced in our mind, changes our biological systems and our environment." </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b23d3076e2096c93487ea611ebbe196b33397a00" datatype="html">
+        <source>No ha de ser extraño esta conclusión para los libros sagrados de las culturas más antiguas, durante miles de años se ha dicho que si uno cree firmemente al grado de estar convencido que algo va a suceder sin dudarlo, esto se hará realidad. Al decir creer no es del todo poder “creer” conscientemente sino va más allá de poder creer desde lo más profundo de nuestra mente que es la mente subconsciente, quien hace realidad los deseos o temores. El poder está en nosotros, la gran mayoría de personas no toma conciencia del gran poder que juega su mente ya sea a su favor o en su contra. </source>
+        <target>This conclusion should not be strange for the sacred books of the oldest cultures, for thousands of years it has been said that if one believes firmly to the degree of being convinced that something will happen without hesitation, this will come true. By saying believe is not at all able to "believe" consciously but goes beyond being able to believe from the depths of our mind that it is the subconscious mind, who makes desires or fears reality. The power is in us, the vast majority of people do not realize the great power that their mind plays either in their favor or against them. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bd178f8c8dfb1416fbae88df976c5142fcf1dad1" datatype="html">
+        <source> Las palabras tienen energía propia que influencia nuestra mente y nuestro entorno.
+Los Maestros espirituales más famosos enseñaron que el poder de la palabra hace milagros. Jesucristo enseño que si crees todo te será posible. El creer viene dado de la influencia de palabras, lo que repercute en un pensamiento así en un sentimiento que es grabado en nuestra mente subconsciente. 
+Los audios subliminales tienen el objetivo de influenciar a la mente subconsciente con mensajes que no se puede percibir de manera consciente y estos mensajes iran reemplazando creencias limitantes con creencias de fe y la fe hacen los milagros.
+</source>
+<target>Words have their own energy that influences our mind and our environment.
+The most famous spiritual Teachers taught that the power of the word works miracles. Jesus Christ taught that if you believe everything, it will be possible for you. The belief is given by the influence of words, which affects such a thought in a feeling that is recorded in our subconscious mind.
+Subliminal audios have the objective of influencing the subconscious mind with messages that can not be consciously perceived and these messages will replace limiting beliefs with beliefs of faith and faith do miracles.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="87e1291b2e3c4f3a28b14cf39765a5e58f76d59c" datatype="html">
+        <source>Artículos relacionados</source>
+        <target> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6e7b511421e8ed841928cf0be964d2951c164ada" datatype="html">
+        <source> Cuidado con el sabotaje del subconsciente</source>
+        <target>Related Posts
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cd17aed0738e1d74efa6fe7a2c797c51166458f7" datatype="html">
+        <source>Los pensamientos cambian el ADN </source>
+        <target>Thoughts change the DNA </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="144601cf29bab13676333dbb66b9083ce6e577c5" datatype="html">
+        <source>La mente cura el cuerpo </source>
+        <target>The mind heals the body </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/heroes/salud/salud.component.ts</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
