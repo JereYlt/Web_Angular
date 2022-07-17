@@ -7,7 +7,8 @@
 <p>
 <img width="680" heigth="300" src="sample/ezgif.com-gif-maker (7).gif">
 <p>
-  ## Formulatio de contacto
+<p aling="center">
+## Formulatio de contacto
 <img width="680" heigth="300" src="sample/ezgif.com-gif-maker (8).gif">
 <p>
 <p>
