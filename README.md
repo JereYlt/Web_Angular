@@ -1,4 +1,4 @@
-# Web Informativa front-end
+# Web Informativa 
 
 <p aling="center">
  
@@ -8,7 +8,7 @@
 <img width="680" heigth="300" src="sample/ezgif.com-gif-maker (7).gif">
 <p>
 <p aling="center">
-## Formulatio de contacto
+ 
 <img width="680" heigth="300" src="sample/ezgif.com-gif-maker (8).gif">
 <p>
 <p>
