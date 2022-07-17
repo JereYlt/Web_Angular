@@ -1,5 +1,16 @@
 # Web Informativa front-end
 
+<p aling="center">
+ 
+<p>
+<img width="680" heigth="300" src="sample/ezgif.com-gif-maker (6).gif">
+<p>
+<img width="680" heigth="300" src="sample/ezgif.com-gif-maker (7).gif">
+<p>
+<img width="680" heigth="300" src="sample/ezgif.com-gif-maker (8).gif">
+<p>
+<p>
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
 
 ## Development server
